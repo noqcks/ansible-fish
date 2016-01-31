@@ -11,6 +11,7 @@ provisioner:
   hosts: test-kitchen
   # list ansible galaxy requirements from meta/main.yml
   requirements_path: requirements.yml
+  ansible_version: "<%= ENV['ANSIBLE_VERSION'] %>"
 
 
 platforms:
